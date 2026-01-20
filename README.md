@@ -9,7 +9,7 @@ In this tutorial, you will perform a workflow for training and evaluating deep l
 Kucharczyk, M., Nesbit, P. R., & Hugenholtz, C. H. (2025). Automated Mapping of Post-Storm Roof Damage Using Deep Learning and Aerial Imagery: A Case Study in the Caribbean. *Remote Sensing*, *17*(20), 3456. https://doi.org/10.3390/rs17203456
 
 > [!NOTE]
-> This tutorial was last tested on December 27, 2025, using ArcGIS Pro 3.4.3 and Jupyter Notebook 7.2.1. If you're using different versions, you may encounter different functionality and results.
+> This tutorial was last tested on January 19, 2026, using ArcGIS Pro 3.4.3 and Jupyter Notebook 7.2.1. If you're using different versions, you may encounter different functionality and results.
 
 ## Requirements
 - Esri ArcGIS Pro with Image Analyst extension
@@ -249,7 +249,7 @@ These steps are part of a comprehensive deep learning workflow, as shown below. 
 
 ### Train dual-class model (Dominica and Sint Maarten training data)
 1. In File Explorer, navigate to the downloaded files folder > **Tools**. Create a copy of **Train Dual-Class Model**. Rename the copy *Dominica_SintMaarten_RoofDecking_RoofHole*.
-2. Start Jupyter Notebook*.
+2. Start Jupyter Notebook.
     - If the downloaded files folder is on the C drive, select **Start** > **ArcGIS** > **Jupyter Notebook**.
     - If the downloaded files folder is on another drive, select **Start** > **ArcGIS** > **Python Command Prompt**. Then, type ```jupyter notebook --notebook-dir=D:\``` (replacing ```D``` with the correct letter) and press **Enter**.
 3. Once Jupyter Notebook launches, a file directory is shown. Double-click through the directory and navigate to the downloaded files folder > **Tools**. Double-click **Dominica_SintMaarten_RoofDecking_RoofHole.ipynb** to open the notebook.
@@ -267,7 +267,7 @@ These steps are part of a comprehensive deep learning workflow, as shown below. 
 
 ### Train roof decking model (Dominica and Sint Maarten training data)
 1. In File Explorer, navigate to the downloaded files folder > **Tools**. Create a copy of **Train Single-Class Model**. Rename the copy *Dominica_SintMaarten_RoofDecking*.
-2. Start Jupyter Notebook*.
+2. Start Jupyter Notebook.
     - If the downloaded files folder is on the C drive, select **Start** > **ArcGIS** > **Jupyter Notebook**.
     - If the downloaded files folder is on another drive, select **Start** > **ArcGIS** > **Python Command Prompt**. Then, type ```jupyter notebook --notebook-dir=D:\``` (replacing ```D``` with the correct letter) and press **Enter**.
 3. Once Jupyter Notebook launches, a file directory is shown. Double-click through the directory and navigate to the downloaded files folder > **Tools**. Double-click **Dominica_SintMaarten_RoofDecking.ipynb** to open the notebook.
@@ -285,7 +285,7 @@ These steps are part of a comprehensive deep learning workflow, as shown below. 
 
 ### Train roof decking model (Dominica, Sint Maarten, The Bahamas, and US Virgin Islands training data)
 1. In File Explorer, navigate to the downloaded files folder > **Tools**. Create a copy of **Train Single-Class Model**. Rename the copy *Dominica_SintMaarten_TheBahamas_USVI_RoofDecking*.
-2. Start Jupyter Notebook*.
+2. Start Jupyter Notebook.
     - If the downloaded files folder is on the C drive, select **Start** > **ArcGIS** > **Jupyter Notebook**.
     - If the downloaded files folder is on another drive, select **Start** > **ArcGIS** > **Python Command Prompt**. Then, type ```jupyter notebook --notebook-dir=D:\``` (replacing ```D``` with the correct letter) and press **Enter**.
 3. Once Jupyter Notebook launches, a file directory is shown. Double-click through the directory and navigate to the downloaded files folder > **Tools**. Double-click **Dominica_SintMaarten_TheBahamas_USVI_RoofDecking.ipynb** to open the notebook.
@@ -303,7 +303,7 @@ These steps are part of a comprehensive deep learning workflow, as shown below. 
 
 ### Train roof hole model (Dominica and Sint Maarten training data)
 1. In File Explorer, navigate to the downloaded files folder > **Tools**. Create a copy of **Train Single-Class Model**. Rename the copy *Dominica_SintMaarten_RoofHole*.
-2. Start Jupyter Notebook*.
+2. Start Jupyter Notebook.
     - If the downloaded files folder is on the C drive, select **Start** > **ArcGIS** > **Jupyter Notebook**.
     - If the downloaded files folder is on another drive, select **Start** > **ArcGIS** > **Python Command Prompt**. Then, type ```jupyter notebook --notebook-dir=D:\``` (replacing ```D``` with the correct letter) and press **Enter**.
 3. Once Jupyter Notebook launches, a file directory is shown. Double-click through the directory and navigate to the downloaded files folder > **Tools**. Double-click **Dominica_SintMaarten_RoofHole.ipynb** to open the notebook.
@@ -321,7 +321,7 @@ These steps are part of a comprehensive deep learning workflow, as shown below. 
 
 ### Train roof hole model (Dominica, Sint Maarten, The Bahamas, and US Virgin Islands training data)
 1. In File Explorer, navigate to the downloaded files folder > **Tools**. Create a copy of **Train Single-Class Model**. Rename the copy *Dominica_SintMaarten_TheBahamas_USVI_RoofHole*.
-2. Start Jupyter Notebook*.
+2. Start Jupyter Notebook.
     - If the downloaded files folder is on the C drive, select **Start** > **ArcGIS** > **Jupyter Notebook**.
     - If the downloaded files folder is on another drive, select **Start** > **ArcGIS** > **Python Command Prompt**. Then, type ```jupyter notebook --notebook-dir=D:\``` (replacing ```D``` with the correct letter) and press **Enter**.
 3. Once Jupyter Notebook launches, a file directory is shown. Double-click through the directory and navigate to the downloaded files folder > **Tools**. Double-click **Dominica_SintMaarten_TheBahamas_USVI_RoofHole.ipynb** to open the notebook.
