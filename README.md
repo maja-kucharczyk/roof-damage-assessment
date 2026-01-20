@@ -20,10 +20,10 @@ Kucharczyk, M., Nesbit, P. R., & Hugenholtz, C. H. (2025). Automated Mapping of 
 ## Workflow overview
 This tutorial has five major steps:
 1. [Prepare images](#1-prepare-images)
-2. [Export training data](https://github.com/maja-kucharczyk/roof-damage-assessment/blob/main/README.md#2-export-training-data)
-3. [Train deep learning models](https://github.com/maja-kucharczyk/roof-damage-assessment#3-train-deep-learning-models)
-4. [Delineate roof damage](https://github.com/maja-kucharczyk/roof-damage-assessment#4-delineate-roof-damage)
-5. [Evaluate deep learning models](https://github.com/maja-kucharczyk/roof-damage-assessment#5-evaluate-deep-learning-models)
+2. [Export training data](#2-export-training-data)
+3. [Train deep learning models](#3-train-deep-learning-models)
+4. [Delineate roof damage](#4-delineate-roof-damage)
+5. [Evaluate deep learning models](#5-evaluate-deep-learning-models)
 
 > [!NOTE]
 > You do not need to complete each step. There are instructions for downloading the required files at the beginning of each step.
@@ -103,7 +103,7 @@ These steps are part of a comprehensive deep learning workflow, as shown below. 
 
 4. Once the tool is done running, all input downloaded images have been prepared.
 
-[Back to top](https://github.com/maja-kucharczyk/roof-damage-assessment/tree/main#delineate-post-storm-roof-damage-using-deep-learning-and-aerial-imagery)
+[Back to top](#delineate-post-storm-roof-damage-using-deep-learning-and-aerial-imagery)
 
 ---
 
@@ -120,7 +120,7 @@ These steps are part of a comprehensive deep learning workflow, as shown below. 
     - Prepared_Training_Images_USVI.gdb.zip
 
 ### Export dual-class training data (Dominica and Sint Maarten)
-1. Perform Steps 1-4 of *[Prepare Dominica training images](https://github.com/maja-kucharczyk/roof-damage-assessment/blob/main/README.md#prepare-dominica-training-images)* if you have not yet created a new ArcGIS Pro project, connected to the downloaded files folder, and set the folder as the default folder.
+1. Perform Steps 1-4 of *[Prepare Dominica training images](#prepare-dominica-training-images)* if you have not yet created a new ArcGIS Pro project, connected to the downloaded files folder, and set the folder as the default folder.
 2. In the Catalog pane, expand the folder that contains the downloaded files, expand **Tools**, expand **Roof Damage Assessment.atbx**, and double-click **Export Training Data**.
 
 ![](https://github.com/maja-kucharczyk/roof-damage-assessment/blob/main/img/2_DualClass_2.JPG?raw=true)
@@ -231,7 +231,7 @@ These steps are part of a comprehensive deep learning workflow, as shown below. 
 
 12. Once the tool is done running, the training dataset is complete.
 
-[Back to top](https://github.com/maja-kucharczyk/roof-damage-assessment/tree/main#delineate-post-storm-roof-damage-using-deep-learning-and-aerial-imagery)
+[Back to top](#delineate-post-storm-roof-damage-using-deep-learning-and-aerial-imagery)
 
 ---
 
@@ -337,7 +337,7 @@ These steps are part of a comprehensive deep learning workflow, as shown below. 
 > [!NOTE]
 > The notebook can also be opened and run in ArcGIS Pro.
 
-[Back to top](https://github.com/maja-kucharczyk/roof-damage-assessment/tree/main#delineate-post-storm-roof-damage-using-deep-learning-and-aerial-imagery)
+[Back to top](#delineate-post-storm-roof-damage-using-deep-learning-and-aerial-imagery)
 
 ---
 
@@ -355,7 +355,7 @@ These steps are part of a comprehensive deep learning workflow, as shown below. 
     - Dominica_SintMaarten_TheBahamas_USVI_RoofHole.zip
 
 ### Delineate roof decking and roof holes (dual-class model trained with data from Dominica and Sint Maarten)
-1. Perform Steps 1-4 of *[Prepare Dominica training images](https://github.com/maja-kucharczyk/roof-damage-assessment/blob/main/README.md#prepare-dominica-training-images)* if you have not yet created a new ArcGIS Pro project, connected to the downloaded files folder, and set the folder as the default folder.
+1. Perform Steps 1-4 of *[Prepare Dominica training images](#prepare-dominica-training-images)* if you have not yet created a new ArcGIS Pro project, connected to the downloaded files folder, and set the folder as the default folder.
 2. In the Catalog pane, expand the folder that contains the downloaded files, expand **Tools**, expand **Roof Damage Assessment.atbx**, and double-click **Delineate Roof Damage**.
 
 ![](https://github.com/maja-kucharczyk/roof-damage-assessment/blob/main/img/4_DualClass_2.JPG?raw=true)
@@ -409,7 +409,7 @@ These steps are part of a comprehensive deep learning workflow, as shown below. 
 
 4. Once the tool is done running, the predicted polygons file geodatabase is complete.
 
-[Back to top](https://github.com/maja-kucharczyk/roof-damage-assessment/tree/main#delineate-post-storm-roof-damage-using-deep-learning-and-aerial-imagery)
+[Back to top](#delineate-post-storm-roof-damage-using-deep-learning-and-aerial-imagery)
 
 ---
 
@@ -423,7 +423,7 @@ These steps are part of a comprehensive deep learning workflow, as shown below. 
     - Prepared_Test_Images.gdb.zip
 
 ### Evaluate dual-class model (trained with data from Dominica and Sint Maarten)
-1. Perform Steps 1-4 of *[Prepare Dominica training images](https://github.com/maja-kucharczyk/roof-damage-assessment/blob/main/README.md#prepare-dominica-training-images)* if you have not yet created a new ArcGIS Pro project, connected to the downloaded files folder, and set the folder as the default folder.
+1. Perform Steps 1-4 of *[Prepare Dominica training images](#prepare-dominica-training-images)* if you have not yet created a new ArcGIS Pro project, connected to the downloaded files folder, and set the folder as the default folder.
 2. In the Catalog pane, expand the folder that contains the downloaded files, expand **Tools**, expand **Roof Damage Assessment.atbx**, and double-click **Calculate Accuracy**.
 
 ![](https://github.com/maja-kucharczyk/roof-damage-assessment/blob/main/img/5_DualClass_2.JPG?raw=true)
@@ -476,4 +476,4 @@ These steps are part of a comprehensive deep learning workflow, as shown below. 
 
 4. Once the tool is done running, the accuracy tables file geodatabase is complete.
 
-[Back to top](https://github.com/maja-kucharczyk/roof-damage-assessment/tree/main#delineate-post-storm-roof-damage-using-deep-learning-and-aerial-imagery)
+[Back to top](#delineate-post-storm-roof-damage-using-deep-learning-and-aerial-imagery)
