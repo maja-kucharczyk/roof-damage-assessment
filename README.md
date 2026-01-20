@@ -19,7 +19,7 @@ Kucharczyk, M., Nesbit, P. R., & Hugenholtz, C. H. (2025). Automated Mapping of 
 
 ## Workflow overview
 This tutorial has five major steps:
-1. [Prepare images](https://github.com/maja-kucharczyk/roof-damage-assessment/blob/main/README.md#1-prepare-images)
+1. [Prepare images](#1-prepare-images)
 2. [Export training data](https://github.com/maja-kucharczyk/roof-damage-assessment/blob/main/README.md#2-export-training-data)
 3. [Train deep learning models](https://github.com/maja-kucharczyk/roof-damage-assessment#3-train-deep-learning-models)
 4. [Delineate roof damage](https://github.com/maja-kucharczyk/roof-damage-assessment#4-delineate-roof-damage)
