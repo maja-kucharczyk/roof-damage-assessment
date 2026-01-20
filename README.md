@@ -19,7 +19,7 @@ Kucharczyk, M., Nesbit, P. R., & Hugenholtz, C. H. (2025). Automated Mapping of 
 
 ## Workflow overview
 This tutorial has five major steps:
-1. [Prepare images](#1.-Prepare-images)
+1. [Prepare images](#1.-prepare-images)
 2. [Export training data](#2.-Export-training-data)
 3. [Train deep learning models](#3.-Train-deep-learning-models)
 4. [Delineate roof damage](#4.-Delineate-roof-damage)
