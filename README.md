@@ -34,7 +34,7 @@ These steps are part of a comprehensive deep learning workflow (Figure 2). To su
 
 ![](https://raw.githubusercontent.com/maja-kucharczyk/roof-damage-assessment/bf2f721916c8a907b46078acb9f2100c3f1ad4fd/img/0_Workflow.svg)
 
-<sup>Figure 2. Workflow showing inputs/outputs (gray), Esri ArcGIS Pro tools (blue), and corresponding tutorial steps (red). Modified from [our publication](https://doi.org/10.3390/rs17203456) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).</sup>
+<sup>Figure 2. Workflow showing inputs/outputs (gray), ArcGIS Pro tools (blue), and corresponding tutorial steps (red). Modified from [our publication](https://doi.org/10.3390/rs17203456) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).</sup>
 
 ---
 
