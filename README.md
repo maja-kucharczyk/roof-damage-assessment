@@ -1,12 +1,14 @@
-# Delineate post-storm roof damage using deep learning and aerial imagery
+# Automated Mapping of Post-Storm Roof Damage: An End-to-End Esri ArcGIS Pro Workflow Using Deep Learning and Aerial Imagery
 
-<img src="https://github.com/maja-kucharczyk/roof-damage-assessment/blob/main/img/0_RoofDecking.jpg?raw=true" width="50%"><img src="https://github.com/maja-kucharczyk/roof-damage-assessment/blob/main/img/0_RoofHole.jpg?raw=true" width="50%">
+<img src="https://github.com/maja-kucharczyk/roof-damage-assessment/blob/main/img/0_GraphicalAbstract.jpg?raw=true" width="100%"><sup>Figure 1. Example predicted polygons of roof decking (yellow) and roof holes (red) from test areas in the Caribbean. Copied from [our publication](https://doi.org/10.3390/rs17203456) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).</sup>
 
 Roof damage caused by hurricanes and other storms needs to be rapidly identified and repaired to help communities recover from catastrophic events and support the well-being of residents. Traditional, ground-based inspections are time-consuming but have recently been expedited via manual interpretation of remote sensing imagery. To potentially accelerate the process, automated methods involving artificial intelligence (i.e., [deep learning](https://pro.arcgis.com/en/pro-app/latest/help/analysis/deep-learning/what-is-deep-learning-.htm)) can be applied. 
 
-In this tutorial, you will perform a workflow for training and evaluating deep learning image segmentation models that detect and delineate two classes of post-storm roof damage: roof decking and roof holes. This guide supports the reproducibility of data and results presented in the following publication:
+In this tutorial, you will perform a workflow for training and evaluating deep learning image segmentation models that detect and delineate two classes of post-storm roof damage: roof decking and roof holes (Figure 1). This guide supports the reproducibility of data and results presented in the following publication:
 
 Kucharczyk, M., Nesbit, P. R., & Hugenholtz, C. H. (2025). Automated Mapping of Post-Storm Roof Damage Using Deep Learning and Aerial Imagery: A Case Study in the Caribbean. *Remote Sensing*, *17*(20), 3456. https://doi.org/10.3390/rs17203456
+
+For a visual summary of the publication, visit the [StoryMap](https://storymaps.arcgis.com/stories/87667f60cf074bce959985c6d9dbcaa2).
 
 > [!NOTE]
 > This tutorial was last tested on January 19, 2026, using ArcGIS Pro 3.4.3 and Jupyter Notebook 7.2.1. If you're using different versions, you may encounter different functionality and results.
@@ -28,9 +30,11 @@ This tutorial has five major steps:
 > [!NOTE]
 > You do not need to complete each step. There are instructions for downloading the required files at the beginning of each step.
 
-These steps are part of a comprehensive deep learning workflow, as shown below. To support the reproducibility of the data and results presented in the [publication](https://doi.org/10.3390/rs17203456), this tutorial does not cover the creation of image boundary polygons, training polygons, and reference polygons. Instead, you will download these polygons.
+These steps are part of a comprehensive deep learning workflow (Figure 2). To support the reproducibility of the data and results presented in the [publication](https://doi.org/10.3390/rs17203456), this tutorial does not cover the creation of image boundary polygons, training polygons, and reference polygons. Instead, you will download these polygons.
 
 ![](https://raw.githubusercontent.com/maja-kucharczyk/roof-damage-assessment/bf2f721916c8a907b46078acb9f2100c3f1ad4fd/img/0_Workflow.svg)
+
+<sup>Figure 2. Workflow showing inputs/outputs (gray), Esri ArcGIS Pro tools (blue), and corresponding tutorial steps (red). Modified from [our publication](https://doi.org/10.3390/rs17203456) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).</sup>
 
 ---
 
