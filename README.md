@@ -13,6 +13,9 @@ For a visual summary of the publication, visit the [StoryMap](https://storymaps.
 > [!NOTE]
 > This tutorial was last tested on January 19, 2026, using ArcGIS Pro 3.4.3 and Jupyter Notebook 7.2.1. If you're using different versions, you may encounter different functionality and results.
 
+## File repository
+Kucharczyk, M., Nesbit, P. R., & Hugenholtz, C. H. (2025). Data, Tools, and Trained Models for "Automated Mapping of Post-Storm Roof Damage Using Deep Learning and Aerial Imagery: A Case Study in the Caribbean" [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20581719
+
 ## Requirements
 - Esri ArcGIS Pro with Image Analyst extension
 - [Deep learning packages for ArcGIS Pro](https://pro.arcgis.com/en/pro-app/latest/help/analysis/deep-learning/install-deep-learning-frameworks.htm)
@@ -41,7 +44,7 @@ These steps are part of a comprehensive deep learning workflow (Figure 2). To su
 ## 1. Prepare images
 
 ### Download files
-1. Go to the [file repository](https://drive.google.com/drive/folders/11AbOA5j1tVF8iIRS7vwDq8YJcy1Z3hhy).
+1. Go to the [file repository](https://doi.org/10.5281/zenodo.20581719).
 2. Download and unzip the following files:
     - Tools.zip
     - Polygons.zip
@@ -114,7 +117,7 @@ These steps are part of a comprehensive deep learning workflow (Figure 2). To su
 ## 2. Export training data
 
 ### Download files
-1. Go to the [file repository](https://drive.google.com/drive/folders/11AbOA5j1tVF8iIRS7vwDq8YJcy1Z3hhy).
+1. Go to the [file repository](https://doi.org/10.5281/zenodo.20581719).
 2. Download and unzip the following files if they were not already downloaded or created in a previous step:
     - Tools.zip
     - Polygons.zip
@@ -122,6 +125,9 @@ These steps are part of a comprehensive deep learning workflow (Figure 2). To su
     - Prepared_Training_Images_SintMaarten.gdb.zip
     - Prepared_Training_Images_TheBahamas.gdb.zip
     - Prepared_Training_Images_USVI.gdb.zip
+  
+> [!NOTE]
+> Due to dataset storage limitations, Prepared_Training_Images_USVI.gdb.zip is not available in the file repository. Please contact Maja Kucharczyk for access to this file geodatabase.
 
 ### Export dual-class training data (Dominica and Sint Maarten)
 1. Perform Steps 1-4 of *[Prepare Dominica training images](#prepare-dominica-training-images)* if you have not yet created a new ArcGIS Pro project, connected to the downloaded files folder, and set the folder as the default folder.
@@ -242,7 +248,7 @@ These steps are part of a comprehensive deep learning workflow (Figure 2). To su
 ## 3. Train deep learning models
 
 ### Download files
-1. Go to the [file repository](https://drive.google.com/drive/folders/11AbOA5j1tVF8iIRS7vwDq8YJcy1Z3hhy).
+1. Go to the [file repository](https://doi.org/10.5281/zenodo.20581719).
 2. Download and unzip the following files if they were not already downloaded or created in a previous step:
     - Tools.zip
     - Training_Dataset_Dominica_SintMaarten_RoofDecking_RoofHole.zip
@@ -348,7 +354,7 @@ These steps are part of a comprehensive deep learning workflow (Figure 2). To su
 ## 4. Delineate roof damage
 
 ### Download files
-1. Go to the [file repository](https://drive.google.com/drive/folders/11AbOA5j1tVF8iIRS7vwDq8YJcy1Z3hhy).
+1. Go to the [file repository](https://doi.org/10.5281/zenodo.20581719).
 2. Download and unzip the following files if they were not already downloaded or created in a previous step:
     - Tools.zip
     - Prepared_Test_Images.gdb.zip
@@ -420,7 +426,7 @@ These steps are part of a comprehensive deep learning workflow (Figure 2). To su
 ## 5. Evaluate deep learning models
 
 ### Download files
-1. Go to the [file repository](https://drive.google.com/drive/folders/11AbOA5j1tVF8iIRS7vwDq8YJcy1Z3hhy).
+1. Go to the [file repository](https://doi.org/10.5281/zenodo.20581719).
 2. Download and unzip the following files if they were not already downloaded or created in a previous step:
     - Tools.zip
     - Polygons.zip
